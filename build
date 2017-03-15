@@ -1,0 +1,4 @@
+#!/bin/bash
+
+vega docker build -t meetri/phoenix_echo:latest .
+vega docker push meetri/phoenix_echo:latest
